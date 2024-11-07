@@ -57,6 +57,7 @@ passwordInput.addEventListener("keyup", function() {
     if (isValid) {
         messageElement.textContent = "Strong password"; 
         messageElement.style.color = "green"; 
+        
     } else {
         messageElement.textContent = "Weak password"; 
         messageElement.style.color = "red"; 
